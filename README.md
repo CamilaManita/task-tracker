@@ -3,6 +3,7 @@
 A simple command line interface (CLI) to track and manage your tasks.
 
 ## Getting Started
+https://roadmap.sh/projects/task-tracker
 
 ### Prerequisites
 
@@ -20,7 +21,7 @@ A simple command line interface (CLI) to track and manage your tasks.
     ```bash
     npm install
 
-### Example
+### Example usage
 The list of commands and their usage is given below:
     ```bash
     
@@ -46,3 +47,6 @@ The list of commands and their usage is given below:
       npm start list done
       npm start list todo
       npm start list in-progress
+
+### Credits
+https://roadmap.sh/projects/task-tracker
