@@ -13,7 +13,7 @@ A simple command line interface (CLI) to track and manage your tasks.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/CamilaManita/challenges.git
+   git clone https://github.com/CamilaManita/task-tracker.git
    cd task-tracker
 
 2. Install dependencies:
