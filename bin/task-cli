@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+const { execSync } = require('child_process');
+const args = process.argv.slice(2);
+const command = `npm start ${args.join(' ')}`;
+execSync(command, { stdio: 'inherit' });

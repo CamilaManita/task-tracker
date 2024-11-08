@@ -1,15 +1,17 @@
 {
-  "name": "task-tracker",
+"name": "task-tracker",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A simple command line interface (CLI) to track and manage your tasks.",
+  "main": "src/index.ts",
   "scripts": {
-    "start": "ts-node src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node src/index.ts"
+  },
+  "bin": {
+    "task-cli": "bin/task-cli"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@types/node": "^22.9.0",
     "ts-node": "^10.9.2",
